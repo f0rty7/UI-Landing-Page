@@ -24,17 +24,16 @@ export class FyleComponent {
     this.icecandyPrice = this.lollipopPrice * 2;
     this.icecandyPriceOffer = this.icecandyPrice / 2;
     this.priceDiff = this.icecandyPrice - this.lollipopPrice;
-    // this.offer1 = this.applyOffer();
+
+    if (!this.offer) {
+      this.lollipopPrice = this.lollipopPriceOffer;
+      this.icecandyPrice = this.icecandyPriceOffer;
+      this.priceDiff = this.icecandyPrice - this.lollipopPrice;
+    }
   }
 
   applyOffer() {
-    // this.numberServing = val;
     this.offer = !this.offer;
-    // if (this.offer === false) {
-    //   this.lollipopPrice /= 2;
-    //   console.log(this.lollipopPrice);
-    //   this.icecandyPrice = (this.lollipopPrice * 2) / 2;
-    //   console.log(this.icecandyPrice);
-    // }
+    this.changeCardVal(this.numberServing);
   }
 }
