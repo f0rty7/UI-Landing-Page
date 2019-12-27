@@ -47,10 +47,38 @@
         </div>
         <div></div>
         <div class="items32">
-          <button class="serving25" (click)="changeCardVal(25)" id="changeTo25" #chnageTo25>25 Serving</button>
-          <button class="serving25" (click)="changeCardVal(50)" id="changeTo50" #chnageTo50>50 Serving</button>
-          <button class="serving25" (click)="changeCardVal(100)" id="changeTo100" #chnageTo100>100 Serving</button>
-          <button class="serving25" (click)="changeCardVal(200)" id="changeTo200" #chnageTo200>200 Serving</button>
+          <button
+            class="serving25"
+            (click)="changeCardVal(25)"
+            id="changeTo25"
+            #chnageTo25
+          >
+            25 Serving
+          </button>
+          <button
+            class="serving25"
+            (click)="changeCardVal(50)"
+            id="changeTo50"
+            #chnageTo50
+          >
+            50 Serving
+          </button>
+          <button
+            class="serving25"
+            (click)="changeCardVal(100)"
+            id="changeTo100"
+            #chnageTo100
+          >
+            100 Serving
+          </button>
+          <button
+            class="serving25"
+            (click)="changeCardVal(200)"
+            id="changeTo200"
+            #chnageTo200
+          >
+            200 Serving
+          </button>
         </div>
         <div class="items33">
           <div class="toggle-alignment">
@@ -58,7 +86,12 @@
               <div>Annual</div>
               <div>50% off</div>
             </div>
-            <input [(ngModel)]="offer" style="margin: 0 1rem;" type="checkbox" (click)="applyOffer()"/>Monthly
+            <input
+              [(ngModel)]="offer"
+              style="margin: 0 1rem;"
+              type="checkbox"
+              (click)="applyOffer()"
+            />Monthly
           </div>
           <!-- <div>50% off</div> -->
         </div>
@@ -67,19 +100,19 @@
       <div class="items34">
         <div class="card">
           <div class="lollipop">lollipop</div>
-          <div class="pricing1">${{lollipopPrice}}</div>
+          <div class="pricing1">${{ lollipopPrice }}</div>
           <div class="pm">Per month</div>
-          <div>For {{numberServing}} Serving</div>
+          <div>For {{ numberServing }} Serving</div>
         </div>
         <div class="card">
           <div class="icecandy">Icecandy</div>
-        <div class="pricing1">${{icecandyPrice}}</div>
+          <div class="pricing1">${{ icecandyPrice }}</div>
           <div class="pm">Per month</div>
-          <div>For {{numberServing}} Serving</div>
+          <div>For {{ numberServing }} Serving</div>
         </div>
         <div class="card3">
           <div class="saving-lollipop">Your savings with lollipop</div>
-        <div class="pricing">${{priceDiff}}</div>
+          <div class="pricing">${{ priceDiff }}</div>
           <div class="pm">Per month</div>
         </div>
       </div>
@@ -111,19 +144,18 @@
         </div>
       </div>
       <div class="items37">
-        <div class="items37a">
-          <div class="item37a-1">Loved by users, recommended by experts</div>
-          <div class="item37a-2">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
-          </div>
-          <button class="item37a-3">Primary CTA</button>
+      <div class="items37a">
+        <div class="item37a-1">Loved by users, recommended by experts</div>
+        <div class="item37a-2">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
         </div>
-        <div class="item37b">
-          <div class="image37b">
-            <img src="assets/bag/png/trave-bag.png" alt="" />
-          </div>
+        <button class="item37a-3">Primary CTA</button>
+      </div>
+      <div class="item37b">
+        <div class="image37b">
+          <img src="assets/bag/png/trave-bag.png" alt="" />
         </div>
       </div>
     </div>
