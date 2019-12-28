@@ -1,124 +1,123 @@
-<div class="container-1">
-  <div class="container-1a">
-    <div class="items10">
-      <div class="looking-for-a-lollip">Looking for lollipop alternative?</div>
-      <div class="body">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s.
-      </div>
-      <div class="container-1-button">
-        <div class="button-1">
-          <button class="btn-1" type="button">Primary CTA</button>
+<div class="wrapper">
+  <div class="container-1">
+    <div class="container-1a">
+      <div class="items10">
+        <div class="looking-for-a-lollip">
+          Looking for lollipop alternative?
         </div>
-        <div class="button-2">
-          <button class="btn-2" type="button">Secondary CTA</button>
+        <div class="body">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-1b">
-    <div class="items11">
-      <img src="assets/globe.png" />
-      <!-- <h2>Globe image goes here</h2> -->
-    </div>
-  </div>
-</div>
-
-<div class="container-2">
-  <div class="text-heading">This is a heading in two lines</div>
-  <div class="items20">
-    <img class="container-2-bg" src="assets/BG/png/BG.png" />
-  </div>
-  <div class="container-3">
-    <div class="container-3b">
-      <img
-        class="container-3-img-1"
-        width="65%"
-        src="assets/lol-ice/png/lol-ice.png"
-      />
-    </div>
-    <div class="container-3c">
-      <div class="items31">
-        <div class="compare-pricing-today">Compare price today!</div>
-        <div class="lorem-ipsum-is">
-          Lorem Ipsum is simply dummy text of the printing and
-          <span class="span1">typesetting</span>
-        </div>
-        <div></div>
-        <div class="items32">
-          <button
-            class="serving25"
-            (click)="changeCardVal(25)"
-            id="changeTo25"
-            #chnageTo25
-          >
-            25 Serving
-          </button>
-          <button
-            class="serving25"
-            (click)="changeCardVal(50)"
-            id="changeTo50"
-            #chnageTo50
-          >
-            50 Serving
-          </button>
-          <button
-            class="serving25"
-            (click)="changeCardVal(100)"
-            id="changeTo100"
-            #chnageTo100
-          >
-            100 Serving
-          </button>
-          <button
-            class="serving25"
-            (click)="changeCardVal(200)"
-            id="changeTo200"
-            #chnageTo200
-          >
-            200 Serving
-          </button>
-        </div>
-        <div class="items33">
-          <div class="toggle-alignment">
-            <div style="margin-top: 16px;">
-              <div>Annual</div>
-              <div>50% off</div>
-            </div>
-            <input
-              [(ngModel)]="offer"
-              style="margin: 0 1rem;"
-              type="checkbox"
-              (click)="applyOffer()"
-            />Monthly
+        <div class="container-1-button">
+          <div class="button-1">
+            <button class="btn-1" type="button">Primary CTA</button>
           </div>
-          <!-- <div>50% off</div> -->
+          <div class="button-2">
+            <button class="btn-2" type="button">Secondary CTA</button>
+          </div>
         </div>
       </div>
+    </div>
+    <div class="container-1b">
+      <div class="items11">
+        <img src="assets/globe.png" />
+        <!-- <h2>Globe image goes here</h2> -->
+      </div>
+    </div>
+  </div>
 
-      <div class="items34">
-        <div class="card">
-          <div class="lollipop">lollipop</div>
-          <div class="pricing1">${{ lollipopPrice }}</div>
-          <div class="pm">Per month</div>
-          <div>For {{ numberServing }} Serving</div>
-        </div>
-        <div class="card">
-          <div class="icecandy">Icecandy</div>
-          <div class="pricing1">${{ icecandyPrice }}</div>
-          <div class="pm">Per month</div>
-          <div>For {{ numberServing }} Serving</div>
-        </div>
-        <div class="card3">
-          <div class="saving-lollipop">Your savings with lollipop</div>
-          <div class="pricing">${{ priceDiff }}</div>
-          <div class="pm">Per month</div>
-        </div>
+  <div class="container-2">
+    <div class="text-heading">This is a heading in two lines</div>
+  </div>
+  <div class="rectangle">
+    <div class="container-2-bg">
+      <img class="" src="assets/lol-ice/png/lol-ice.png" />
+    </div>
+  </div>
+  <div class="container-3c">
+    <div class="items31">
+      <div class="compare-pricing-today">Compare price today!</div>
+      <div class="lorem-ipsum-is">
+        Lorem Ipsum is simply dummy text of the printing and
+        <span class="span1">typesetting</span>
       </div>
-      <div class="items35">
-        <div class="items35a">Here’s what our customers have to say.</div>
+      <div></div>
+      <div class="items32">
+        <button
+          class="serving25"
+          (click)="changeCardVal(25)"
+          id="changeTo25"
+          #chnageTo25
+        >
+          25 Serving
+        </button>
+        <button
+          class="serving25"
+          (click)="changeCardVal(50)"
+          id="changeTo50"
+          #chnageTo50
+        >
+          50 Serving
+        </button>
+        <button
+          class="serving25"
+          (click)="changeCardVal(100)"
+          id="changeTo100"
+          #chnageTo100
+        >
+          100 Serving
+        </button>
+        <button
+          class="serving25"
+          (click)="changeCardVal(200)"
+          id="changeTo200"
+          #chnageTo200
+        >
+          200 Serving
+        </button>
       </div>
+      <div class="items33">
+        <div class="toggle-alignment">
+          <div style="margin-top: 16px;">
+            <div>Annual</div>
+            <div>50% off</div>
+          </div>
+          <input
+            [(ngModel)]="offer"
+            style="margin: 0 1rem;"
+            type="checkbox"
+            (click)="applyOffer()"
+          />Monthly
+        </div>
+        <!-- <div>50% off</div> -->
+      </div>
+    </div>
+
+    <div class="items34">
+      <div class="card">
+        <div class="lollipop">lollipop</div>
+        <div class="pricing1">${{ lollipopPrice }}</div>
+        <div class="pm">Per month</div>
+        <div>For {{ numberServing }} Serving</div>
+      </div>
+      <div class="card">
+        <div class="icecandy">Icecandy</div>
+        <div class="pricing1">${{ icecandyPrice }}</div>
+        <div class="pm">Per month</div>
+        <div>For {{ numberServing }} Serving</div>
+      </div>
+      <div class="card3">
+        <div class="saving-lollipop">Your savings with lollipop</div>
+        <div class="pricing">${{ priceDiff }}</div>
+        <div class="pm">Per month</div>
+      </div>
+    </div>
+    <div class="items35">
+      <div class="items35a">Here’s what our customers have to say.</div>
+    </div>
+    <div class="carousel">
       <div class="items36">
         <div class="items36a">
           <div class="bitmap1">
@@ -143,20 +142,29 @@
           </div>
         </div>
       </div>
-      <div class="items37">
-      <div class="items37a">
-        <div class="item37a-1">Loved by users, recommended by experts</div>
-        <div class="item37a-2">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
-        </div>
-        <button class="item37a-3">Primary CTA</button>
+      <div class="crousel-dots">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
-      <div class="item37b">
-        <div class="image37b">
-          <img src="assets/bag/png/trave-bag.png" alt="" />
-        </div>
+    </div>
+  </div>
+  <div class="items37">
+    <div class="items37a">
+      <div class="item37a-1">Loved by users, recommended by experts</div>
+      <div class="item37a-2">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s.
+      </div>
+      <button class="item37a-3">Primary CTA</button>
+    </div>
+    <div class="item37b">
+      <div class="image37b">
+        <img src="assets/bag/png/trave-bag.png" alt="" />
       </div>
     </div>
   </div>
